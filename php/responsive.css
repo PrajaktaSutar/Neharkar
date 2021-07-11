@@ -1,0 +1,20 @@
+@media screen and (max-width:768px){
+    body{
+        display: flex;
+        flex-direction: column;
+}
+    .navBar{
+        display: flex;
+    }
+    
+
+#profile, #listing {
+    width: 375px;
+    margin-left: auto;
+    margin: 20px auto;
+    max-width: 100%;
+}
+#listing {margin: 0px auto 20px;}
+#filter{max-width: 100%;}
+    
+}
